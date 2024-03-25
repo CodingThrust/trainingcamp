@@ -1,16 +1,13 @@
 +++
-title =  "RydbergAtoms"
+title =  "Past Events"
 +++
 
-# Introduction
-Here we host all materials related to the 2024 Rydberg Atom Training Camp.
-
-
-# Atom Loading
+# Rydberg Atom Training Camp 2024 
+## Atom Loading
 - [Atom Loading](/RydbergAtoms/AtomLoading/)
 
-# Error Correction
+## Error Correction
 - [Error Correction](/RydbergAtoms/ErrorCorrection/)
 
-# Simulation Projects
+## Simulation Projects
 - [Educational MPS and MPO](/RydbergAtoms/Simulation/final-xzgao)
