@@ -1,0 +1,4 @@
+Sitemap: https://codingthrust.github.io/trainingcamp/sitemap.xml
+
+User-agent: *
+Disallow:
