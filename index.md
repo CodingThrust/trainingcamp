@@ -4,17 +4,25 @@ title = "Numeric Gangsters Training Camp"
 
 ~~~
 <div id=home-jumbotron class="jumbotron text-center">
-  <h1><img height=200 src="/assets/logo_crop.png">
-      Numeric Gangsters <br>Training Camp</h1>
-  <p class=font-125>
-  </p>
+  <h1>Physics and Computation  <br> Training Camp </h1>
 </div>
 ~~~
 
-The Numeric Gangsters Training Camp is a series of materials for training students in scientific computing. The materials are designed for students at HKUST(GZ) and are freely available to the public. 
+# About 
+
+The Physics and Computation Training Camp is a series of materials for training students in scientific computing and physics. The materials targets students at HKUST(GZ) and are freely available to the public. 
+
+
+## Past Events
 
 Materials for past events are available [here](/PastEvents/).
 
-You can find the materials for the current event [here](/NextEvent/):
 
-The materials are written in Markdown and are designed to be easily converted to HTML, PDF, and other formats using [Franklin.jl](https://github.com/tlienart/Franklin.jl), and other tools.
+## Future Event
+
+Information for future event can be found [here](/NextEvent/).
+
+## Contact
+
+We could be reached via [zulip](https://zulip.hkust-gz.edu.cn)
+

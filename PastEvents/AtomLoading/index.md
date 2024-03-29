@@ -1,4 +1,4 @@
-generating 3D array with SLM
+# Generating 3D array with SLM
 
 2024/03/17
 Han Wang
