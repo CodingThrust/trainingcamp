@@ -5,24 +5,18 @@ title = "Numeric Gangsters Training Camp"
 ~~~
 <div id=home-jumbotron class="jumbotron text-center">
   <h1>Physics and Computation  <br> Training Camp </h1>
+
+  This site hosts a series of materials for training students in scientific computing and physics. The materials targets students at the Hong Kong University of Science and Technology (Guangzhou) and are freely available to the public. 
 </div>
 ~~~
 
-# About 
-
-The Physics and Computation Training Camp is a series of materials for training students in scientific computing and physics. The materials targets students at HKUST(GZ) and are freely available to the public. 
-
-
 ## Past Events
 
-Materials for past events are available [here](/PastEvents/).
+[Rydberg Atoms Array (2024)](/RydbergAtoms2024/).
 
 
 ## Future Event
 
-Information for future event can be found [here](/NextEvent/).
+[TBD](/NextEvent/).
 
-## Contact
-
-We could be reached via [zulip](https://zulip.hkust-gz.edu.cn)
 

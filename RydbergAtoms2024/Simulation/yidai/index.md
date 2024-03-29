@@ -1,4 +1,4 @@
-# Final Report
+# Quantum Scar 
 
 ## Introduction
 Rydbeg atoms are not the atoms corresponding to a particular element, but rather a class of excited state atoms with many electrons in the outer layers of the atoms. The Rydberg atoms are characterized by the fact that the outermost electron is in a state with a very high principal quantum number.
@@ -22,11 +22,11 @@ A ground atom is hard to excite to the Rydberg state by one laser photon, becaus
 
 Quantum Hamiltonians encode the essential physical properties of a quantum system. For the analog mode of neutral-atom quantum computers, the quantum dynamics is governed by the Rydberg Hamiltonian $\hat{\mathcal{H}}$:
 
-```math
+$$
 i \hbar \dfrac{\partial}{\partial t} | \psi \rangle = \hat{\mathcal{H}}(t) | \psi \rangle,  \\
 
 \frac{\mathcal{H}(t)}{\hbar} = \sum_j \frac{\Omega_j(t)}{2} \left( e^{i \phi_j(t) } | g_j \rangle  \langle r_j | + e^{-i \phi_j(t) } | r_j \rangle  \langle g_j | \right) - \sum_j \Delta_j(t) \hat{n}_j + \sum_{j < k} V_{jk} \hat{n}_j \hat{n}_k,
-```
+$$
 
 where $\Omega_j$, $\phi_j$, and $\Delta_j$  denote the Rabi frequency, laser phase, and the detuning of the driving laser field on atom (qubit) ``j`` coupling the two states  $ | g_j \rangle $ (ground state) and $ | r_j \rangle $ (Rydberg state); $\hat{n}_j = |r_j\rangle \langle r_j|$ is the number operator, and $V_{jk} = C_6/|\mathbf{x}_j - \mathbf{x}_k|^6$ describes the Rydberg interaction (van der Waals interaction) between atoms ``j`` and ``k`` where $\mathbf{x}_j$ denotes the position of the atom ``j``; $C_6$ is the Rydberg interaction constant that depends on the particular Rydberg state used. For Bloqade, the default $C_6 = 862690 \times 2\pi \text{ MHz μm}^6$ for $|r \rangle = \lvert 70S_{1/2} \rangle$ of the $^{87}$ Rb atoms; $\hbar$ is the reduced Planck's constant.
 
@@ -61,7 +61,9 @@ h0 = rydberg_h(atoms; C=2π*10.0^6, Δ=1.2*2π, Ω=1.1*2π, ϕ=2.1)
 
 We can have some definitions about Rydberg atoms:
 The quantum dynamic of Rydberg atoms can be described by the Hamiltonian:
-$H=\sum_i\frac{\Omega_i}2X_i-\sum_i\Delta_in_i+\sum_{i<j}V_{ij}n_in_j$
+$$
+H=\sum_i\frac{\Omega_i}{2}X_i-\sum_i\Delta_{i}n_{i}+\sum_{i < j} V_{ij}n_{i}n_{j}
+$$
     
 where $X_i$ is the Pauli X operator, $X_{i}=\sigma_{x}^{i}=|g_{i}\rangle\langle r_{i}|+|r_{i}\rangle\langle g_i| $， $\Omega_i$ is the Rabi frequency, $\Delta_i$ is the detuning, and $n_i$ is the number operator. The last term is the Rydberg interaction term.
 
