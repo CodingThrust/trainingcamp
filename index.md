@@ -4,17 +4,19 @@ title = "Numeric Gangsters Training Camp"
 
 ~~~
 <div id=home-jumbotron class="jumbotron text-center">
-  <h1><img height=200 src="/assets/logo_crop.png">
-      Numeric Gangsters <br>Training Camp</h1>
-  <p class=font-125>
-  </p>
+  <h1>Physics and Computation  <br> Training Camp </h1>
+
+  This site hosts a series of materials for training students in scientific computing and physics. These materials target students at the Hong Kong University of Science and Technology (Guangzhou) and are freely available to the public. 
 </div>
 ~~~
 
-The Numeric Gangsters Training Camp is a series of materials for training students in scientific computing. The materials are designed for students at HKUST(GZ) and are freely available to the public. 
+## Past Events
 
-Materials for past events are available [here](/PastEvents/).
+[Rydberg Atoms Array (2024)](/RydbergAtoms2024/).
 
-You can find the materials for the current event [here](/NextEvent/):
 
-The materials are written in Markdown and are designed to be easily converted to HTML, PDF, and other formats using [Franklin.jl](https://github.com/tlienart/Franklin.jl), and other tools.
+## Future Event
+
+[TBD](/NextEvent/).
+
+

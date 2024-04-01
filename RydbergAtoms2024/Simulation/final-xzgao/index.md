@@ -43,18 +43,19 @@ where the black circles represent the high dimensional matrices, the red lines r
 
 According to the low rank nature, we can reduce the large high-dims tensor to a MPS.
 For example, if we have a 3 order tensor $T_{ijk}$, we can first merge two of the indices to form a matrix $M_{i,jk}$, and then apply the SVD to the matrix, so that
-```math
+$$
   M_{i, jk} = U_{i,l} S_{l} V_{l, jk}^{\dagger} = U_{i,l} R_{l, jk},
-```
+$$
+
 so that the original huge tensor is split into two connected smaller tensors $U_{i,l}$ and $R_{l, jk}$.
 Repeat this process, a large tensor can be represented as a product of smaller tensors, which is the MPS representation of the original tensor.
 
 ![](figs/tensor2mps.png)
 
 Furthermore, according to the SVD, we have 
-```math
+$$
   U^{\dagger} U = I, V^{\dagger} V = I.
-```
+$$
 In this case, we will have two different gauge choices, by choosing $U$ or $V$ as the site tensors. The corresponding MPS representation are called **left-canonical** and **right-canonical** MPS, and of-cause you can have mixed-canonical MPS.
 
 ### Matrix Product Operators (MPO)
