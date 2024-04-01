@@ -1,4 +1,5 @@
 ## Tensor-Based Simulation Methods for Quantum Many Body Systems
+- Xuanzhao Gao: [xgaobj@connect.hkust-gz.edu.cn](mailto:xgaobj@connect.hkust-gz.edu.cn)
 
 In this section, we will introduce some of the basic simulation methods for quantum many body systems, based on tensor network contractions. 
 We will start by introducing the basic concepts of tensor networks, and then we will show how can that combine with Quantum many body systems, by introducing the Matrix Product States (MPS) [^MPS] and Matrix Product Operations (MPO) [^MPO]. 

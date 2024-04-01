@@ -1,4 +1,6 @@
 # Rydberg Blockade and Maximum Independent Set
+- Dezheng Zhang: [robertz197@163.com](mailto:robertz197@163.com)
+
 ## I. Rydberg Blockade
 1. The dynamics of the rydberg interacion.
 When an atom is in the Rydberg state (expressed in $|r\rangle$), no other atoms within its **Rydberg radius** (which is expressed in $R_b$, and sets the characteristic distance scale for which Rydberg interaction will be strong compared to the coupling strength between the ground and the Rydberg state set by $\Omega$) can be excited to the Rydberg state. This phenomenon is called Rydberg blockade.

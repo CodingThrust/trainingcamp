@@ -1,5 +1,7 @@
 # Quantum Scar 
 
+- Yidai Zhang: [yzhang958@connect.hkust-gz.edu.cn](mailto:yzhang958@connect.hkust-gz.edu.cn)
+
 ## Introduction
 Rydbeg atoms are not the atoms corresponding to a particular element, but rather a class of excited state atoms with many electrons in the outer layers of the atoms. The Rydberg atoms are characterized by the fact that the outermost electron is in a state with a very high principal quantum number.
 
