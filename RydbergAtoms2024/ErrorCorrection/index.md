@@ -1,6 +1,8 @@
 # Quantum Error Correction
 
-## 0. Ref for Begginers
+- Zhongyi Ni: [zni573@connect.hkust-gz.edu.cn](mailto:zni573@connect.hkust-gz.edu.cn)
+
+## Ref for Begginers
 Some comprehensive introduction to quantum error correction:
 1. The Bible!(Quantum computation and quantum information)[^nilson] Easy to read, some topic may not be too detailed. It's a good starting point!
 2. A Tutorial on Quantum Error Correction.[^Steane2006](No comments yet, since I haven't read it. If I don't understand other articles, I refer to this one for comparison)

@@ -1,4 +1,7 @@
 # Quantum Cellular Automata and its implementation
+- Qingyun Qian: [qqian716@connect.hkust-gz.edu.cn](mailto:qqian716@connect.hkust-gz.edu.cn),
+- Yusheng Zhao: [yzhao053@connect.hkust-gz.edu.cn](mailto:yzhao053@connect.hkust-gz.edu.cn)
+
 ## 1.Reversible Cellular Automata 
 
 ### 1.1Motivation
