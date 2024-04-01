@@ -1,8 +1,5 @@
 # Generating 3D array with SLM
 
-2024/03/17
-Han Wang
-
 1. An example of 3D arrays using programmable holographic optical tweezer.[^Barredo2018]
    - Main method: They imprint a phase pattern (calculated using 3D Gerchberg-Saxton algorithm) on a dipole trap beam at 850 nm with SLM.
    - The experimental setup is shown below: 
@@ -86,4 +83,3 @@ Han Wang
 [^Jonathan]: Pozzi, Paolo, and Jonathan Mapelli.["Real Time Generation of Three Dimensional Patterns for Multiphoton Stimulation."](https://doi.org/10.3389/fncel.2021.609505.) Frontiers in Cellular Neuroscience, 15(609505), 2021.
 
 [^Pozzi]: Pozzi, Paolo, Laura Maddalena et al. [“Fast Calculation of Computer Generated Holograms for 3D Photostimulation through Compressive-Sensing Gerchberg–Saxton Algorithm.”](https://doi.org/10.3390/mps2010002.) Methods and Protocols 2, no. 1 (December 20, 2018): 2. 
-[End of Report]

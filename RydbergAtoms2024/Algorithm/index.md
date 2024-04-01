@@ -6,7 +6,7 @@ In theoretical computer science, we have three models of computation that are eq
 
 Such models have done a great job in rigorously modeling the process of computation. But they are not so helpful in improving the efficiency of computation. The reason is that they are not physical in the sense that they don't encapsulate the physical evolution of a system. As the Church-Turing thesis states, no known computation model can simulate the evolution of a physical model faster than the physical evolution itself. Therefore, a model that captures the physical evolution of a system can be used to device a more efficient computation model. 
 
-Reversible Cellular Automata (RCA) is such a model. It is first and foremost a cellular automata, which is a model of computation that captures the concept of locality, a propoerty found in most physical processes. It is reversible in the sense that it is possible to reverse the evolution of the system. The last point is important since reversible processes don't increase entropy. By [Landauer's principle](https://www.cs.princeton.edu/courses/archive/fall06/cos576/papers/bennett03.pdf), all entropy increasing `information bearing operations` must be accompanied with `non-information bearing operations` that increases the entropy with even larger amount. These entropies must be changed with input energy. Hence the irreversible operations are not energy efficient.
+Reversible Cellular Automata (RCA) is such a model. It is first and foremost a cellular automata, which is a model of computation that captures the concept of locality, a propoerty found in most physical processes. It is reversible in the sense that it is possible to reverse the evolution of the system. The last point is important since reversible processes don't increase entropy. By [Landauer's principle](https://www.cs.princeton.edu/courses/archive/fall06/cos576/papers/bennett03.pdf), all logical computation that decreases entropy must be accompanied with an increase of the entropy in the environment. These entropies must be changed with input energy. Hence the irreversible operations are not energy efficient.
 
 ### 1.2 Implementation of RCA
 The implementation of Reversible Cellular Automata follows from the paper by Margolus et. al. [^1].
@@ -489,12 +489,12 @@ Establish the initial operators $Q_i$. Since the unitary transformation $U$ is c
 Update the operators $\left\{Q_k^i\right\}$ one by one until the operator $Q_k^m$ is obtained. At most, performing the multiplication of Pauli matrices requires $n+(n-1)+\cdots+2+1=\mathcal{O}\left(n^2\right)$ operations. Therefore, the entire process can be effectively simulated by a classical computer.
 
 # Reference
-[^1]:Margolus, N., 1984. Physics-like models of computation. Physica D: Nonlinear Phenomena 10, 81–95.https://doi.org/10.1016/0167-2789(84)90252-5
-[^2]:https://arxiv.org/abs/0907.3827, P. Arrighi and J. Grattage, “Intrinsically universal n-dimensional quantum cellular automata.”
-[^3]:M. A. Nielsen, I. Chuang, and L. K. Grover, “Quantum computation and quantum information,” in American journal of physics, vol. 70, 2002, pp. 558–559. doi: 10.1119/1.1463744.
-[^4]:T. M. Wintermantel, Y. Wang, G. Lochead, S. Shevate, G. K. Brennen, and S. Whitlock, “Unitary and Nonunitary Quantum Cellular Automata with Rydberg Arrays,” Phys. Rev. Lett., vol. 124, no. 7, p. 070503, Feb. 2020, doi: 10.1103/PhysRevLett.124.070503.
-[^5]:https://www.sciencedirect.com/science/article/pii/S0010465512003955?via%3Dihub J. R. Johansson, P. D. Nation, and F. Nori: "QuTiP 2: A Python framework for the dynamics of open quantum systems.", Comp. Phys. Comm. 184, 1234 (2013) 
-[^6]:P. Arrighi and J. Grattage, “Intrinsically universal n-dimensional quantum cellular automata.” arXiv, Oct. 13, 2010. doi: 10.48550/arXiv.0907.3827.
+[^1]: Margolus, N., 1984. Physics-like models of computation. Physica D: Nonlinear Phenomena 10, 81–95.https://doi.org/10.1016/0167-2789(84)90252-5
+[^2]: https://arxiv.org/abs/0907.3827, P. Arrighi and J. Grattage, “Intrinsically universal n-dimensional quantum cellular automata.”
+[^3]: M. A. Nielsen, I. Chuang, and L. K. Grover, “Quantum computation and quantum information,” in American journal of physics, vol. 70, 2002, pp. 558–559. doi: 10.1119/1.1463744.
+[^4]: T. M. Wintermantel, Y. Wang, G. Lochead, S. Shevate, G. K. Brennen, and S. Whitlock, “Unitary and Nonunitary Quantum Cellular Automata with Rydberg Arrays,” Phys. Rev. Lett., vol. 124, no. 7, p. 070503, Feb. 2020, doi: 10.1103/PhysRevLett.124.070503.
+[^5]: https://www.sciencedirect.com/science/article/pii/S0010465512003955?via%3Dihub J. R. Johansson, P. D. Nation, and F. Nori: "QuTiP 2: A Python framework for the dynamics of open quantum systems.", Comp. Phys. Comm. 184, 1234 (2013) 
+[^6]: P. Arrighi and J. Grattage, “Intrinsically universal n-dimensional quantum cellular automata.” arXiv, Oct. 13, 2010. doi: 10.48550/arXiv.0907.3827.
 [^7]:https://zhuanlan.zhihu.com/p/539165910
 [^8]:http://theory.caltech.edu/~preskill/ph219/chap5_15.pdf
 [^9]:https://link.springer.com/content/pdf/10.1007/978-3-319-11080-6.pdf
