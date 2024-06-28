@@ -2,6 +2,8 @@
 title =  "Past Events"
 +++
 
+This page contains a series of materials for training students in quantum information, many-body physics and scientific computing. These materials target students at the Hong Kong University of Science and Technology (Guangzhou) and are freely available to the public. 
+
 ## Scientific Computing (2024)
 
 This [training camp](https://github.com/CodingThrust/NumericTrainingCamp) is about the application of tensor network based methods in quantum many-body physics. The final reports are available as documents of repositories at the following links:
