@@ -1,4 +1,4 @@
-Sitemap: https://codingthrust.github.io/trainingcamp/sitemap.xml
+Sitemap: www.quantumbay.science/sitemap.xml
 
 User-agent: *
 Disallow:
