@@ -5,7 +5,7 @@ title = "Numeric Gangsters Training Camp"
 ~~~
 <div id=home-jumbotron class="jumbotron text-center">
   <h1>The Quantum Bay</h1>
-  <p>We are a group of quantum scientists around the geometric center of the Guangdong–Hong Kong–Macao greater bay area - Hong Kong University of Science and Technology (Guangzhou).</p>
+  <p>We are a group of quantum scientists at the geometric center of the Guangdong–Hong Kong–Macao greater bay area - Hong Kong University of Science and Technology (Guangzhou).</p>
 
     <img src="assets/logo_crop.png" width="300" >
 </div>
