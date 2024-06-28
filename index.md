@@ -14,6 +14,7 @@ title = "Numeric Gangsters Training Camp"
   <div style="width:70%; margin:auto">
   <ul>
   <li><a href="/RydbergAtoms2024/">2024 March: Rydberg Atoms Array - Towards early fault tolerant quantum computing</a></li>
+  <li><a href="/ScientificComp2024/">2024 June: Scientific Computing Training Camp </a></li>
   </ul>
   </div>
 </div>
