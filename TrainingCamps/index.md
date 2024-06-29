@@ -1,5 +1,5 @@
 +++
-title =  "Past Events"
+title = "Past Events"
 +++
 
 This page contains a series of materials for training students in quantum information, many-body physics and scientific computing. These materials target students at the Hong Kong University of Science and Technology (Guangzhou) and are freely available to the public. 
