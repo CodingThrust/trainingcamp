@@ -1,10 +1,13 @@
 +++
-title = "Past Events"
+title = "Events"
 +++
 
-This page contains a series of materials for training students in quantum information, many-body physics and scientific computing. These materials target students at the Hong Kong University of Science and Technology (Guangzhou) and are freely available to the public. 
+This page contains a series of events happening or happened at Quantum Bay.
 
-## Scientific Computing (2024)
+## Upcoming Events
+
+## Past Events
+### Training Camp: Scientific Computing (2024)
 
 This [training camp](https://github.com/CodingThrust/NumericTrainingCamp) is about the application of tensor network based methods in quantum many-body physics. The final reports are available as documents of repositories at the following links:
 
@@ -16,7 +19,7 @@ This [training camp](https://github.com/CodingThrust/NumericTrainingCamp) is abo
 - [Renormalization Group Reduced Density Matrix](https://github.com/exAClior/RGRDMT.jl)
 - [Variational Monte Carlo](https://github.com/Phy-Ren/Variational-Monte-Carlo)
 
-## Rydberg Atoms Array (2024)
+### Training Camp: Rydberg Atoms Array (2024)
 This training camp is about the basic concepts of Rydberg Atoms and their applications in quantum information processing. The final reports are available at the following links:
 
 - [Generating 3D array with SLM](/RydbergAtoms2024/AtomLoading/)
