@@ -14,7 +14,7 @@ This [training camp](https://github.com/CodingThrust/NumericTrainingCamp) is abo
 - [Tensor Network AD](https://github.com/YidaiZhang/TensorNetworkAD2.jl)
 - [Tensor Quantum Error Correction](https://github.com/nzy1997/TensorQEC.jl)
 - [Tensor Network Contraction Order](https://github.com/ArrogantGao/Notes-Gsoc2024)
-- [CMPO for Finite Temperature](https://github.com/lovemy569/CMPO-For-Finite-Temperature)
+- [CMPO for Finite Temperature](https://github.com/lovemy569/cMPO.jl)
 - [Isometric Tensor Network States](https://github.com/Br0kenSmi1e/isoTNS.jl)
 - [Renormalization Group Reduced Density Matrix](https://github.com/exAClior/RGRDMT.jl)
 - [Variational Monte Carlo](https://github.com/Phy-Ren/Variational-Monte-Carlo)
