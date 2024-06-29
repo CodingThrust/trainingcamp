@@ -2,13 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
-    <loc>www.quantumbay.science/TrainingCamps/AtomLoading/index.html</loc>
+    <loc>www.quantumbay.science/search/index.html</loc>
     <lastmod>2024-06-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>www.quantumbay.science/TrainingCamps/Simulation/dezheng/index.html</loc>
+    <loc>www.quantumbay.science/Learning/index.html</loc>
+    <lastmod>2024-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>www.quantumbay.science/TrainingCamps/index.html</loc>
     <lastmod>2024-06-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -32,7 +38,13 @@
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>www.quantumbay.science/TrainingCamps/index.html</loc>
+    <loc>www.quantumbay.science/TrainingCamps/Simulation/final-xzgao/index.html</loc>
+    <lastmod>2024-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>www.quantumbay.science/ReadingList/index.html</loc>
     <lastmod>2024-06-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -44,13 +56,19 @@
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>www.quantumbay.science/TrainingCamps/Simulation/final-xzgao/index.html</loc>
+    <loc>www.quantumbay.science/TrainingCamps/Simulation/yidai/index.html</loc>
     <lastmod>2024-06-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>www.quantumbay.science/TrainingCamps/Simulation/yidai/index.html</loc>
+    <loc>www.quantumbay.science/TrainingCamps/AtomLoading/index.html</loc>
+    <lastmod>2024-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>www.quantumbay.science/TrainingCamps/Simulation/dezheng/index.html</loc>
     <lastmod>2024-06-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
